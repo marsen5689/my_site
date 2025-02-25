@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marsen Site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/script.js"></script>
+</head>
+<body>
+    <div class="box">
+        
+        <h2>Привет, начинай листать 😉</h2>
+        <div class="text">
+            <p>Привет, я Марс. Мне нравится создавать разные интересный штуки которые могут быть полезны или просто красивые: анимации в After Effects, Telegram-ботов или что-то ещё, что радует глаз и работает как надо. Всё началось в 2020 с курсов по веб-разработке — тогда я осваивал HTML и CSS, а потом взялся за JavaScript. JS сначала казался каким-то монстром, но домашки сдавать получалось, и я втянулся. До этого, ещё в 2019, пробовал Python, но, честно говоря, в силу возраста (или лени понимать) толком ничего не вышло — зато теперь это часть моего пути.</p>
+            <p></p>
+            <p>Я активный юзер Telegram — там я черпаю идеи, нахожу крутые фишки, интересных ботов и прочее, которые вдохновляют на новые проекты. Этот сайт — мой первый персональный эксперимент. Назову его портфолио или pet-проект — не знаю пока. Накидал дизайн в Figma, прикинул, что хочу видеть, полистал пару каналов в ТГ с идеями для сайтов и сел реаилизовывать.</p>
+        </div>
+        <div class="content">
+            <h3 class="video-caption">Дальше будет несколько моих анимаций, можно сказать - одни из первых</h3>
+            <div class="video-grid">
+                <div class="video-container">
+                    <video class="video-item vertical" muted>
+                        <source src="media/video_anim/video1.mp4" type="video/mp4">
+                        Ваш браузер не поддерживает видео.
+                    </video>
+                    <div class="video-controls">
+                        <button class="play-pause">▶️</button>
+                        <div class="progress-bar">
+                            <div class="progress"></div>
+                        </div>
+                        <button class="mute-toggle">🔊</button>
+                    </div>
+                </div>
+                <div class="horizontal-videos">
+                    <div class="video-container">
+                        <video class="video-item horizontal" muted>
+                            <source src="media/video_anim/video2.mp4" type="video/mp4">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                        <div class="video-controls">
+                            <button class="play-pause">▶️</button>
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <button class="mute-toggle">🔊</button>
+                        </div>
+                    </div>
+                    <div class="video-container">
+                        <video class="video-item horizontal" muted>
+                            <source src="media/video_anim/video3.mp4" type="video/mp4">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                        <div class="video-controls">
+                            <button class="play-pause">▶️</button>
+                            <div class="progress-bar">
+                                <div class="progress"></div>
+                            </div>
+                            <button class="mute-toggle">🔊</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="timeline">
+            <h3>Мой путь</h3>
+            <div class="timeline-container">
+                <div class="timeline-item" data-year="2019">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>2019</h4>
+                        <p>Первые шаги в Python. Лень победила, но начало было положено.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2020">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>2020</h4>
+                        <p>Курсы веб-разработки: HTML, CSS и знакомство с JS.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2022">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>2022</h4>
+                        <p>Первый рабочий бот для группы в колледже который напоминает как зовут преподователей, пишет рассписание звонок и пар</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2025">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>2025</h4>
+                        <p>Начал изучение After Effects, первые заказы, парочка наборов эмодзи для телеграм</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2025">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h4>2025</h4>
+                        <p>Создал этот сайт — мой первый pet-проект :)</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="contacts">
+        <h3>Связаться со мной</h3>
+        <div class="contacts-container">
+            <div class="contact-item" data-type="telegram">
+                <span class="icon">📩</span>
+                <p>Пиши в Telegram: <a href="https://t.me/syumer" target="_blank">@syumer</a></p>
+                <div class="telegram-pulse"></div>
+            </div>
+        </div>
+    </div>
+    <p>Ты здесь уже <span id="time-spent">0</span> секунд</p>
+    <div class="footer">
+        <p>Сделано с ❤️ от Марса</p></div>
+    </div>
+
+    <div class="cursor">
+    <div class="scroll-progress"></div>
+</body>
+</html>
