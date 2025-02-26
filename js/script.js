@@ -193,3 +193,11 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.5 });
 
 observer.observe(contactItem);
+
+// Получаем или устанавливаем начальное значение счетчика
+let visitCount = localStorage.getItem('visitCount') || 0;
+visitCount = parseInt(visitCount) + 1; // Увеличиваем на 1 при каждом посещении
+localStorage.setItem('visitCount', visitCount); // Сохраняем новое значение
+
+// Отображаем количество посещений
+document.getElementById('visitCount').textContent = visitCount;
