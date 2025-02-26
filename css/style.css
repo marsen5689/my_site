@@ -1,6 +1,6 @@
 @font-face{
-    font-family: 'Luminova';
-    src: url('assets/fonts/Luminova-Regular.otf') format('opentype');
+    font-family: 'my_fonts';
+    src: url('assets/fonts/Luminova-SoftOL.otf') format('opentype');
 }
 
 * {
@@ -16,7 +16,7 @@ body {
     align-items: center;
     min-height: 1000vh; 
     background: #171717;
-    font-family: 'Luminova', sans-serif;
+    font-family: 'my_fonts';
     flex-direction: column;
     overflow-x: hidden;
 }
