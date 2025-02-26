@@ -330,6 +330,10 @@ div.box p:hover ~ .cursor {
 }
 
 @media screen and (max-width: 480px) {
+    body{
+        min-height: 800vh; 
+
+    }
     .box {
         padding: 15px;
         top: 5%; 
