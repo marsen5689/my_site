@@ -332,7 +332,15 @@ h3.video-caption {
 }
 
 @media screen and (max-width: 480px) {
-
+    .content {
+        margin-top: 10px;
+        color: #fff;
+        text-align: left;
+        width: 100%;
+        max-width: 1200px;
+        padding: 20px;
+        display: block;
+    }
     .box {
         padding: 15px;
         top: 5%; 
