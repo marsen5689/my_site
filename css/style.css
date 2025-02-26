@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 800vh; 
+    min-height: 1000vh; 
     background: #171717;
     font-family: 'Luminova', sans-serif;
     flex-direction: column;
@@ -243,6 +243,10 @@ div.box p:hover ~ .cursor {
 
 /* Медиа-запросы */
 @media screen and (max-width: 1024px) {
+    body{
+        min-height: 800vh; 
+
+    }
     .contact-item {
         width: 300px; 
     }
