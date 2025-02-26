@@ -129,9 +129,9 @@ h3.video-caption {
     transition: transform 0.3s ease;
 }
 
-div.box p:hover ~ .cursor {
+/* div.box p:hover ~ .cursor {
     transform: translate(-50%, -50%) scale(8);
-}
+} */
 
 .timeline {
     margin-top: 40px;
